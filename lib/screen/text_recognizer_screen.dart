@@ -20,7 +20,7 @@ class _TextRecognizerScreenState extends State<TextRecognizerScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(10),
           child: Center(
             child: Column(
